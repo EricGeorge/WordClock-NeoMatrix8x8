@@ -79,7 +79,9 @@ uint64_t mask;
 #define TEN      mask |= 0x1010100
 #define ELEVEN   mask |= 0x3F00
 #define TWELVE   mask |= 0xF600
-#define ANDYDORO mask |= 0x8901008700000000
+#define HI       mask |= 0x80008000000
+#define ELI      mask |= 0x10001004
+
 
 // define pins
 #define NEOPIN 8  // connect to DIN on NeoMatrix 8x8
@@ -194,5 +196,3 @@ void loop() {
 
 
 }
-
-
